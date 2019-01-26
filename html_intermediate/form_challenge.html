@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="john" required>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+
+        <div>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender" required>
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" required>
+
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="gender" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="your password" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="">BirthDay</label>
+            <select name="Month">
+                <option value="Month">Month</option>
+            </select>
+            <select name="Day">
+                <option value="Day">Day</option>
+            </select>
+            <select name="Year">
+                <option value="Year">Year</option>
+            </select>
+        </div>
+        <div>
+            <label for="condition">I Agree to Terms and Conditions</label>
+            <input type="checkbox" id="conditon" name="conditon" required>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

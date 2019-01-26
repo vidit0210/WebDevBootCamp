@@ -17,10 +17,16 @@
 
     <form>
         <!-- name to get data via naem - TO query -->
+        <!-- For and Id for Visually impaired people  for and id Shoul match -->
 
-        <input name='username' type="text" placeholder="username">
-        <input name="password" type="password" placeholder="password">
-        <input type="submit">
+        <label> userName <input name='username' type="text" placeholder="username" required></label>
+
+        <label for="password"></label>
+        <input type="password" id="password" name="pass" placeholder="password" required>
+
+        <label for="emai">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email " required>
+
         <button>submit</button>
     </form>
 </body>
