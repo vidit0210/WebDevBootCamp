@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\JINESH\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+    "python.pythonPath": "C:\\Users\\JINESH\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100
 }
