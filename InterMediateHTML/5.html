@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up  Page</title>
+</head>
+<body>
+    <h2>Register</h2>
+    <form>
+        <label for="FirstName">First Name</label>
+        <input type="text" name="fname" id="FirstName" placeholder="John" required>
+        <label for="LastName">Last Name</label>
+        <div>
+        <input type="text" name="lname" id="LastName" placeholder="Smith" required>
+        <label for="Male"> Male</label>
+        <input type="radio" name="gender" id="Male" required>
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" required>
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" required>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="Email" required>
+        <label for="Password">Password</label>
+        <input type="password" name="pass" id="Password" required>
+    </div>
+    <div>
+        <label for="Month">Birthday</label>
+        <select name="month" id="Month">
+            <option value="">Month</option>
+            <option value="">Jan</option>
+            <option value="">Feb</option>
+        </select>
+
+        <select name="m" id="Month">
+                <option value="">Month</option>
+                <option value="">Jan</option>
+                <option value="">Feb</option>
+            </select>
+
+            <select name="month" id="Month">
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                </select>
+    </div>
+        <label for="condition">I agree to terms and condition</label>
+        <input type="checkbox" name="condition" id="condition">
+
+    </form>
+</body>
+</html>
