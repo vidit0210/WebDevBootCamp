@@ -1,0 +1,13 @@
+.done{
+    text-decoration: line-through;
+}
+li{
+    border:1px dashed  black;
+}
+
+input[type="checkbox"]{
+    background: red;
+}
+li:nth-of-type(2){
+    background: blue;
+}
