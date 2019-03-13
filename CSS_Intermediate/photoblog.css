@@ -1,0 +1,14 @@
+img{
+    width: 30%;
+    margin:1.66%;
+    float: left;
+    /* Float kinda removes all the properties */
+}
+h1{
+    font-family: 'Srisakdi', cursive;
+    margin-left: 1.66%;
+    font-weight: bold;
+    border-bottom: 3px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}

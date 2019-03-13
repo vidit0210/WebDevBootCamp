@@ -1,0 +1,18 @@
+p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Srisakdi', cursive;
+
+    line-height: 1;
+    text-decoration: underline;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-align: center;
+}
+span{
+    font-size: 2.0em;
+    /* Sets the Fonts sisze dynamic to the property which is available  */
+    text-decoration: line-through;
+}
+

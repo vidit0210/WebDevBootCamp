@@ -1,0 +1,12 @@
+p{
+    border: 2px solid pink;
+    /* Padding is the space between Element(Content) and the border */
+    padding:10px;
+    /* Space betwwen outside elememts - Margin */
+    /* margin:100px; */
+    width:50%;
+    /* Takes 50% of teh parent element which is Body in this case*/
+    margin:auto;
+
+
+}
